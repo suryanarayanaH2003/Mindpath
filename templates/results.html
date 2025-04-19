@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        /* General Page Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            color: #3498db;
+            font-size: 1.5em;
+        }
+
+        /* Container for answers and suggestions */
+        .content-container {
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 900px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Answer list styling */
+        .answer-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .answer-list li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        .answer-list li strong {
+            color: #2c3e50;
+        }
+
+        /* Career suggestions box */
+        .career-suggestions-box {
+            background-color: #fff;
+            padding: 15px;
+            margin-top: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        /* Button Styles */
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .btn:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        /* Loading Spinner */
+        .loading {
+            display: none;
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin-top: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MindPath's AI Suggestion</h1>
+</header>
+
+<div class="content-container">
+    <ul class="answer-list">
+        {% for question, answer in answers.items() %}
+        <li><strong>{{ question }}:</strong> {{ answer }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Career Suggestions</h2>
+    <div class="career-suggestions-box">
+        {% if career_suggestions %}
+            <p>{{ career_suggestions }}</p>
+        {% else %}
+            <div class="loading" id="loading-spinner"></div>
+            <form method="POST" id="results-form">
+                <button type="submit" class="btn">Show Career Suggestions</button>
+            </form>
+        {% endif %}
+    </div>
+</div>
+
+<p style="text-align:center; margin-top: 20px;">
+    <a href="{{ url_for('index') }}" class="btn">Go to Home</a>
+</p>
+
+<script>
+    // Show loading spinner when form is submitted
+    const form = document.getElementById('results-form');
+    const loadingSpinner = document.getElementById('loading-spinner');
+
+    form.addEventListener('submit', function() {
+        loadingSpinner.style.display = 'block'; // Show loading spinner
+        form.querySelector('button').disabled = true; // Disable button to prevent multiple submissions
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Tell me about yourself",
+        "purpose": "To explore their natural inclinations and hobbies."
+    },
+    {
+        "question": "If you had a whole day to yourself with no responsibilities, how would you spend it? What activities excite you the most?",
+        "purpose": "To explore their natural inclinations and hobbies."
+    },
+    {
+        "question": "What kind of problems do you enjoy solving or thinking about in your free time? For example, are they related to technology, nature, people, or something else?",
+        "purpose": "To identify their problem-solving preferences and domain interests."
+    },
+    {
+        "question": "When you look at the world, what kind of challenges or issues do you feel drawn to understand or improve? Why?",
+        "purpose": "To uncover their deeper passions or sense of purpose."
+    },
+    {
+        "question": "What type of conversations or topics make you lose track of time when discussing with friends or family?",
+        "purpose": "To identify subjects they are naturally curious about."
+    },
+    {
+        "question": "What’s a recent skill you’ve tried learning or a topic you’ve researched out of pure interest? How did it make you feel?",
+        "purpose": "To gauge their self-motivated learning and exploratory behavior."
+    },
+    {
+        "question": "When you dream about your future, what kind of work or environment do you see yourself in? For example, do you imagine working with people, computers, or nature?",
+        "purpose": "To help them visualize their long-term aspirations."
+    },
+    {
+        "question": "Do you enjoy working with your hands (building, crafting) or your mind (thinking, analyzing, imagining)? Or a mix of both? Why?",
+        "purpose": "To understand their preferred mode of working."
+    },
+    {
+        "question": "If someone gave you the opportunity to solve a mystery, like how a machine works, why a plant grows a certain way, or how an app is built, which one would excite you the most?",
+        "purpose": "To reveal preferences for technical, biological, or analytical thinking."
+    },
+    {
+        "question": "What is something you’ve done or achieved that made you feel proud, and what made it special to you?",
+        "purpose": "To assess what they value in their achievements—creativity, logic, empathy, etc."
+    },
+    {
+        "question": "Imagine you have to create something completely new—a solution, a design, or a tool. What would you make, and how would it help others?",
+        "purpose": "To evaluate their creativity, practical thinking, and societal focus."
+    }
+]
