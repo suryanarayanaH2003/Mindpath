@@ -1,0 +1,5 @@
+Flask
+google-generativeai
+gunicorn
+Jinja2
+Werkzeug
