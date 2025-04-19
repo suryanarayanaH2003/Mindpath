@@ -66,7 +66,7 @@
             <p>Click below to review your answers and check the results.</p>
         </div>
 
-        <form action="{{ url_for('results') }}" method="get">
+        <form action="{{ url_for('results', level=level) }}" method="get">
             <button type="submit" class="button">Check for Results</button>
         </form>
     </div>

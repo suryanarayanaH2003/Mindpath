@@ -1,0 +1,50 @@
+[
+    {
+    "question": "Tell me about yourself as 12th",
+    "purpose": "To explore their natural inclinations and hobbies."
+    },
+    {
+      "question": "Tell me about your favorite subjects in school and why you enjoy them.",
+      "purpose": "To identify academic strengths and interests."
+    },
+    {
+      "question": "If you could spend a whole day exploring a field of study, what would it be and why? What specific topics within that field excite you?",
+      "purpose": "To explore deeper academic interests and passions."
+    },
+    {
+      "question": "What kind of problems or challenges in your favorite subjects do you find most engaging to solve? Are they theoretical, practical, or a mix of both?",
+      "purpose": "To identify preferred problem-solving styles and academic approaches."
+    },
+    {
+      "question": "What societal issues or global challenges are you most interested in addressing through your future career? How do you think your chosen field of study could contribute?",
+      "purpose": "To uncover career aspirations aligned with societal impact and personal values."
+    },
+    {
+      "question": "What types of projects or assignments have you enjoyed the most in school? What aspects made them engaging and rewarding?",
+      "purpose": "To understand preferred learning styles and project engagement."
+    },
+    {
+      "question": "What’s a recent topic you’ve researched or learned about outside of school purely out of interest? How did it connect to your academic interests?",
+      "purpose": "To gauge self-motivated learning and intellectual curiosity."
+    },
+    {
+      "question": "When you imagine your future career, what kind of work environment do you envision yourself in? (e.g., research lab, classroom, corporate office, fieldwork)?",
+      "purpose": "To help visualize long-term career aspirations and preferred work settings."
+    },
+    {
+      "question": "Do you prefer working independently on projects or collaboratively with others? Why?",
+      "purpose": "To understand preferred work styles and collaboration preferences."
+    },
+    {
+      "question": "If you had the opportunity to conduct independent research in a specific field, what would you choose and why? What questions would you aim to answer?",
+      "purpose": "To reveal potential research interests and independent thinking abilities."
+    },
+    {
+      "question": "What is a project or accomplishment you're particularly proud of, and what skills or qualities did it demonstrate?",
+      "purpose": "To assess self-awareness of skills and accomplishments relevant to higher education."
+    },
+    {
+      "question": "Imagine you are designing a new college course. What would it be about, and how would you make it engaging and relevant to today's world?",
+      "purpose": "To evaluate creativity, critical thinking, and relevance to current issues."
+    }
+  ]

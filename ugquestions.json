@@ -1,0 +1,87 @@
+[
+    {
+        "question": "Tell me about yourself as UG",
+        "purpose": "To explore their natural inclinations and hobbies."
+    },
+    {
+      "question": "What are your top three personal interests or hobbies outside of academics, and how do you think they could relate to a career?",
+      "purpose": "To explore personal passions that could inform career choices."
+    },
+    {
+      "question": "What kind of tasks or activities do you enjoy doing the most (e.g., problem-solving, organizing events, working with technology, helping people)?",
+      "purpose": "To identify preferences in work-related tasks."
+    },
+    {
+      "question": "What subjects or topics in school have felt the most fulfilling or exciting to you, and why?",
+      "purpose": "To link academic interests to potential career paths."
+    },
+    {
+      "question": "What type of work environment do you think you’d thrive in? (e.g., fast-paced, creative, structured, outdoors, remote, etc.)",
+      "purpose": "To understand preferred work environments for job selection."
+    },
+    {
+      "question": "If you could try any job for a week, what would it be and why? What about that job appeals to you?",
+      "purpose": "To identify aspirational career interests."
+    },
+    {
+      "question": "What skills or qualities do people often compliment you on, and how do you think these could be applied in a career?",
+      "purpose": "To uncover transferable skills and strengths."
+    },
+    {
+      "question": "Do you prefer working with data, ideas, people, or things? Why do you feel this aligns with your interests?",
+      "purpose": "To categorize career options based on work preferences."
+    },
+    {
+      "question": "What kinds of societal issues or global challenges do you feel strongly about, and how might a career help you make an impact?",
+      "purpose": "To align career aspirations with personal values and societal goals."
+    },
+    {
+      "question": "What kind of projects or assignments at school have you found the most rewarding, and what skills did you develop while working on them?",
+      "purpose": "To identify engaging work styles and relevant skills."
+    },
+    {
+      "question": "When making decisions, do you rely more on logic or creativity? How do you think this affects your approach to problem-solving?",
+      "purpose": "To explore decision-making and problem-solving styles."
+    },
+    {
+      "question": "Are there any industries or fields you’ve researched or been curious about recently? What attracted you to them?",
+      "purpose": "To assess exploration of potential career fields."
+    },
+    {
+      "question": "If you could design your ideal job, what would it involve, and what impact would you hope to have in that role?",
+      "purpose": "To visualize long-term career goals and motivations."
+    },
+    {
+      "question": "Do you prefer working on short-term tasks with immediate results or long-term projects with a bigger impact? Why?",
+      "purpose": "To understand career preferences in task scope and outcomes."
+    },
+    {
+      "question": "What kind of team roles do you typically take on in group projects (e.g., leader, planner, contributor, supporter)? How does this reflect your work preferences?",
+      "purpose": "To assess teamwork and collaboration styles."
+    },
+    {
+      "question": "If you could solve a specific problem in the world, what would it be and how would you approach it?",
+      "purpose": "To align problem-solving interests with career aspirations."
+    },
+    {
+      "question": "What types of internships or part-time jobs would you be interested in exploring to gain experience in a field you like?",
+      "purpose": "To gauge practical career interests and readiness for experience."
+    },
+    {
+      "question": "What technologies or tools do you enjoy using, and how do you see them being part of your future career?",
+      "purpose": "To link technological interests to career possibilities."
+    },
+    {
+      "question": "If you could start your own business or organization, what would it focus on, and why?",
+      "purpose": "To evaluate entrepreneurial tendencies and specific interests."
+    },
+    {
+      "question": "Are you drawn to roles where you work independently or as part of a team? Why does this suit your personality?",
+      "purpose": "To identify individual or collaborative career preferences."
+    },
+    {
+      "question": "What are your long-term goals in life, and how do you see your first job contributing to those goals?",
+      "purpose": "To align initial career steps with broader aspirations."
+    }
+  ]
+  

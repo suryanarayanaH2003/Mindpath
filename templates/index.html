@@ -39,6 +39,10 @@
             gap: 15px;
         }
 
+        .buttons-container a {
+            text-decoration: none;
+        }
+
         .btn {
             padding: 12px;
             font-size: 18px;
@@ -60,16 +64,38 @@
         .btn:active {
             transform: translateY(0);
         }
+
+        .chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .chat-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>MindPath {{ session['user'] }}</h1>
+        <h1>MindPath</h1>
         <div class="buttons-container">
-            <button class="btn" onclick="location.href='/10th'">10th</button>
-            <button class="btn" onclick="location.href='/12th'">12th</button>
-            <button class="btn" onclick="location.href='/undergraduate'">Undergraduate</button>
+            <a class="btn" href="{{ url_for('question', level='10th') }}">10th</a>
+            <a class="btn" href="{{ url_for('question', level='12th') }}">12th</a>
+            <a class="btn" href="{{ url_for('question', level='ug') }}">Undergraduate</a>
         </div>
     </div>
+    <button class="chat-button" onclick="location.href='/chat'">Chat with us</button>
 </body>
 </html>

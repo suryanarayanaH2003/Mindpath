@@ -107,6 +107,10 @@
             100% { transform: rotate(360deg); }
         }
 
+        .go-back-home a {
+            text-decoration: none;
+        }
+
     </style>
 </head>
 <body>
@@ -135,8 +139,8 @@
     </div>
 </div>
 
-<p style="text-align:center; margin-top: 20px;">
-    <a href="{{ url_for('index') }}" class="btn">Go to Home</a>
+<p class="go-back-home" style="text-align:center; margin-top: 20px;">
+    <a href="{{ url_for('home') }}" class="btn">Go to Home</a>
 </p>
 
 <script>
