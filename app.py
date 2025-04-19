@@ -5,7 +5,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyBLu0Frwa5vKVhXl2FkFyyqvAVkwm5IKPU")
+genai.configure(api_key="AIzaSyDdgepmfxfPW6V5SEUJWDh29L9DthXPhkE")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Global variables for user conversations
